@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main class="main_Container">
+
+        <header class="header_Container">
+            <div class="header1">
+                <p>Calculator</p>
+            </div>
+            <div class="header2">
+                <p>Standard</p>
+            </div>
+        </header>
+
+        <div class="display_Container">
+            <div>
+                <input type="text" name="" id="cal"/>
+            </div>
+        </div>
+
+        <div class="btn_Container">
+            <div class="btn">
+                <button onclick="buttonClick('%')">%</button>
+            </div>
+            <div class="btn">
+                <button onclick="buttonClick('CE')">CE</button>
+            </div>
+            <div class="btn">
+                <button onclick="buttonClick('C')">C</button>
+            </div>
+            <div class="btn">
+                <button onclick="buttonClick('<-')"><img src="./Images/deleteIcon.webp" alt="Delete Icon"></button>
+            </div>
+            <div class="btn">
+                <button onclick="buttonClick('7')">7</button>
+            </div>
+            <div class="btn">
+                <button onclick="buttonClick('8')">8</button>
+            </div>
+            <div class="btn">
+                <button onclick="buttonClick('9')">9</button>
+            </div>
+            <div class="btn">
+                <button onclick="buttonClick('*')">x</button>
+            </div>
+            <div class="btn">
+                <button onclick="buttonClick('4')">4</button>
+            </div>
+            <div class="btn">
+                <button onclick="buttonClick('5')">5</button>
+            </div>
+            <div class="btn">
+                <button onclick="buttonClick('6')">6</button>
+            </div>
+            <div class="btn">
+                <button  onclick="buttonClick('-')">-</button>
+            </div>
+            <div class="btn">
+                <button onclick="buttonClick('1')">1</button>
+            </div>
+            <div class="btn">
+                <button onclick="buttonClick('2')">2</button>
+            </div>
+            <div class="btn">
+                <button onclick="buttonClick('3')">3</button>
+            </div>
+            <div class="btn">
+                <button  onclick="buttonClick('+')">+</button>
+            </div>
+            <div class="btn">
+                <button onclick="buttonClick('/')"><img src="./Images/divideicon.webp" alt="Divide Icon"></button>
+            </div>
+            <div class="btn">
+                <button onclick="buttonClick('0')">0</button>
+            </div>
+            <div class="btn">
+                <button onclick="buttonClick('.')">.</button>
+            </div>
+            <div class="btn">
+                <button id="btnEqual" onclick="buttonClick('=')">=</button>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+<script src="app.js"></script>
+</html>
