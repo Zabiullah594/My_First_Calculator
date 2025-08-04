@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    padding-top: 4rem;
+}
+
+.main_Container{
+    margin: auto auto;
+    padding-top: 0.5rem;
+    max-width: 380px;
+    min-width: 325px;
+    border: 1px solid black;
+    background-color: #f5f5f7;
+}
+
+.header_Container{
+    padding-left: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.header1{
+    color: #000000B8;
+}
+
+.header2{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+}
+
+.display_Container{
+    width: 100%;
+}
+
+.display_Container input{
+    text-align: right;
+    width: 100%;
+    padding: 0.8rem;
+    height: 5rem;
+    font-size: 2.7rem;
+    border: none;
+    background-color: #f5f5f7;
+    outline: none;
+}
+
+.btn_Container{
+    height: 25rem;
+    margin-top: 0.5rem;
+    padding: 0.3rem;
+    display: grid;
+    gap: 0.3rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.btn_Container img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.btn_Container button{
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    background-color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+}
+
+#btnEqual{
+    background-color: #0a72c1fa;
+    color: white;
+    font-size: 1.8rem;
+}
+
+#btnEqual:hover{
+    background-color: #0a72c1db;
+}
+
+.btn_Container button:hover{
+    background-color: rgba(255, 255, 255, 0.708);
+}
